@@ -18,3 +18,15 @@
 Notes:
 - Handle errors gracefully, such as invalid usernames or API failures.
 - Do not use any external libraries or frameworks to fetch the GitHub activity.
+
+
+# Creating a new repo
+1. Create a new repo on GitHub
+2. Initialise Git in terminal
+    git init
+    git add .
+    git commit -m "Initial commit"
+3. Add Remote and push (SSH)
+    git remote add origin git@github.com:codingpracs/your-repo.git
+    git branch -M main
+    git push -u origin main
